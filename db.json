@@ -36,34 +36,6 @@
       "userId": "2"
     },
     {
-      "id": "d006",
-      "domain": "web-hosting.cloud",
-      "provider": "Cloudflare",
-      "date": "2026-06-05",
-      "userId": "2"
-    },
-    {
-      "id": "d007",
-      "domain": "digital-marketing.pro",
-      "provider": "GoDaddy",
-      "date": "2026-08-18",
-      "userId": "2"
-    },
-    {
-      "id": "d008",
-      "domain": "portfolio-site.dev",
-      "provider": "Namecheap",
-      "date": "2026-01-25",
-      "userId": "2"
-    },
-    {
-      "id": "d009",
-      "domain": "blog-platform.org",
-      "provider": "Google Domains",
-      "date": "2026-09-30",
-      "userId": "2"
-    },
-    {
       "id": "d101",
       "domain": "startup-hub.tech",
       "provider": "Namecheap",
@@ -97,41 +69,13 @@
       "provider": "GoDaddy",
       "date": "2026-04-29",
       "userId": "4fc1"
-    },
-    {
-      "id": "d106",
-      "domain": "ecommerce-platform.shop",
-      "provider": "Cloudflare",
-      "date": "2026-06-16",
-      "userId": "4fc1"
-    },
-    {
-      "id": "d107",
-      "domain": "data-analytics.ai",
-      "provider": "Google Domains",
-      "date": "2026-08-25",
-      "userId": "4fc1"
-    },
-    {
-      "id": "d108",
-      "domain": "design-studio.co",
-      "provider": "Namecheap",
-      "date": "2026-01-12",
-      "userId": "4fc1"
-    },
-    {
-      "id": "d109",
-      "domain": "tech-blog.info",
-      "provider": "GoDaddy",
-      "date": "2026-10-07",
-      "userId": "4fc1"
     }
   ],
   "tasks": [
     {
       "id": "t001",
-      "title": "Sunucu Yedekleme Sistemi Kurulumu",
-      "description": "VPS sunucusuna otomatik yedekleme sistemi kurulacak. Günlük yedekler alınacak ve 7 gün saklanacak.",
+      "title": "Sunucu Yedekleme",
+      "description": "VPS yedekleme kurulumu",
       "status": "progress",
       "priority": "high",
       "due_date": "2025-12-12T23:59:00.000Z",
@@ -139,8 +83,8 @@
     },
     {
       "id": "t002",
-      "title": "SSL Sertifikası Yenileme",
-      "description": "example-shop.com domain için SSL sertifikası yenilenecek.",
+      "title": "SSL Yenileme",
+      "description": "SSL sertifikası yenilenecek",
       "status": "todo",
       "priority": "high",
       "due_date": "2025-12-15T23:59:00.000Z",
@@ -148,17 +92,17 @@
     },
     {
       "id": "t003",
-      "title": "WordPress Tema Güncelleme",
-      "description": "Tüm WordPress sitelerinde tema ve eklenti güncellemeleri yapılacak.",
-      "status": "todo",
+      "title": "WordPress Güncelleme",
+      "description": "Tema güncelleme",
+      "status": "done",
       "priority": "medium",
-      "due_date": "2025-12-18T23:59:00.000Z",
+      "due_date": "2025-12-10T23:59:00.000Z",
       "userId": "2"
     },
     {
       "id": "t004",
-      "title": "Mail Sunucu DKIM Ayarları",
-      "description": "Mail sunucusunda DKIM ve SPF kayıtları yapılandırılacak.",
+      "title": "Mail Sunucu Ayarları",
+      "description": "DKIM ve SPF yapılandırması",
       "status": "progress",
       "priority": "medium",
       "due_date": "2025-12-14T23:59:00.000Z",
@@ -167,52 +111,16 @@
     {
       "id": "t005",
       "title": "Veritabanı Optimizasyonu",
-      "description": "MySQL veritabanında index optimizasyonu ve temizlik yapılacak.",
+      "description": "MySQL index temizliği",
       "status": "todo",
       "priority": "low",
       "due_date": "2025-12-20T23:59:00.000Z",
       "userId": "2"
     },
     {
-      "id": "t006",
-      "title": "Firewall Kuralları Güncelleme",
-      "description": "Sunucu firewall kuralları gözden geçirilip güvenlik açıkları kapatılacak.",
-      "status": "done",
-      "priority": "high",
-      "due_date": "2025-12-10T23:59:00.000Z",
-      "userId": "2"
-    },
-    {
-      "id": "t007",
-      "title": "CDN Entegrasyonu",
-      "description": "Cloudflare CDN servisi tüm sitelere entegre edilecek.",
-      "status": "progress",
-      "priority": "medium",
-      "due_date": "2025-12-16T23:59:00.000Z",
-      "userId": "2"
-    },
-    {
-      "id": "t008",
-      "title": "Log Dosyaları Temizliği",
-      "description": "Eski log dosyaları temizlenip arşivlenecek.",
-      "status": "todo",
-      "priority": "low",
-      "due_date": "2025-12-22T23:59:00.000Z",
-      "userId": "2"
-    },
-    {
-      "id": "t009",
-      "title": "Monitoring Sistemi Kurulumu",
-      "description": "Sunucu izleme ve uyarı sistemi kurulacak.",
-      "status": "todo",
-      "priority": "high",
-      "due_date": "2025-12-17T23:59:00.000Z",
-      "userId": "2"
-    },
-    {
       "id": "t101",
-      "title": "Docker Container Migrasyonu",
-      "description": "Tüm servisler Docker container'larına taşınacak.",
+      "title": "Docker Migration",
+      "description": "Container'lara geçiş",
       "status": "progress",
       "priority": "high",
       "due_date": "2025-12-13T23:59:00.000Z",
@@ -220,8 +128,8 @@
     },
     {
       "id": "t102",
-      "title": "API Rate Limiting Implementasyonu",
-      "description": "API endpoint'lerine rate limiting sistemi eklenecek.",
+      "title": "API Rate Limiting",
+      "description": "Rate limit sistemi",
       "status": "todo",
       "priority": "high",
       "due_date": "2025-12-16T23:59:00.000Z",
@@ -229,8 +137,8 @@
     },
     {
       "id": "t103",
-      "title": "Redis Cache Kurulumu",
-      "description": "Redis cache servisi kurulup veritabanı sorgularına entegre edilecek.",
+      "title": "Redis Cache",
+      "description": "Cache kurulumu",
       "status": "done",
       "priority": "medium",
       "due_date": "2025-12-09T23:59:00.000Z",
@@ -238,8 +146,8 @@
     },
     {
       "id": "t104",
-      "title": "Nginx Reverse Proxy Yapılandırması",
-      "description": "Nginx reverse proxy ayarları yapılıp load balancing aktif edilecek.",
+      "title": "Nginx Yapılandırması",
+      "description": "Reverse proxy ayarları",
       "status": "progress",
       "priority": "medium",
       "due_date": "2025-12-15T23:59:00.000Z",
@@ -247,47 +155,11 @@
     },
     {
       "id": "t105",
-      "title": "GitHub Actions CI/CD Pipeline",
-      "description": "Otomatik deployment için GitHub Actions workflow'u oluşturulacak.",
+      "title": "GitHub Actions CI/CD",
+      "description": "Otomatik deployment pipeline",
       "status": "todo",
       "priority": "high",
       "due_date": "2025-12-19T23:59:00.000Z",
-      "userId": "4fc1"
-    },
-    {
-      "id": "t106",
-      "title": "Database Backup Script",
-      "description": "Otomatik veritabanı yedekleme scripti yazılacak.",
-      "status": "done",
-      "priority": "high",
-      "due_date": "2025-12-08T23:59:00.000Z",
-      "userId": "4fc1"
-    },
-    {
-      "id": "t107",
-      "title": "Server Security Audit",
-      "description": "Sunucu güvenlik taraması yapılıp rapor hazırlanacak.",
-      "status": "todo",
-      "priority": "high",
-      "due_date": "2025-12-14T23:59:00.000Z",
-      "userId": "4fc1"
-    },
-    {
-      "id": "t108",
-      "title": "SSL Certificate Auto-Renewal",
-      "description": "Let's Encrypt SSL otomatik yenileme sistemi kurulacak.",
-      "status": "progress",
-      "priority": "medium",
-      "due_date": "2025-12-17T23:59:00.000Z",
-      "userId": "4fc1"
-    },
-    {
-      "id": "t109",
-      "title": "Elasticsearch Integration",
-      "description": "Log analizi için Elasticsearch servisi entegre edilecek.",
-      "status": "todo",
-      "priority": "low",
-      "due_date": "2025-12-21T23:59:00.000Z",
       "userId": "4fc1"
     }
   ],
@@ -296,7 +168,7 @@
       "id": "1",
       "email": "admin@test.com",
       "password": "admin123",
-      "name": "Admin Kullanıcısı",
+      "name": "Admin",
       "role": "admin",
       "permissions": {
         "domains": true,
@@ -308,7 +180,7 @@
       "id": "2",
       "email": "test@test.com",
       "password": "123",
-      "name": "Test Kullanıcısı",
+      "name": "Test User",
       "role": "user",
       "permissions": {
         "domains": false,
@@ -320,19 +192,7 @@
       "id": "3",
       "email": "test2@test.com",
       "password": "123",
-      "name": "test2 Kullanıcısı",
-      "role": "user",
-      "permissions": {
-        "domains": false,
-        "tasks": false,
-        "passwords": false
-      }
-    },
-    {
-      "id": "4",
-      "email": "test3@test.com",
-      "password": "1111",
-      "name": "test3 Kullanıcısı",
+      "name": "Test2",
       "role": "user",
       "permissions": {
         "domains": false,
@@ -344,7 +204,7 @@
       "id": "4fc1",
       "email": "sait125152@gmail.com",
       "password": "123",
-      "name": "sait ari",
+      "name": "Sait Ari",
       "role": "user",
       "permissions": {
         "domains": false,
@@ -366,7 +226,7 @@
       "id": "p002",
       "sunucu": "ftp.server1.com",
       "user_code": "ftp_user",
-      "password": "FTP2024secure",
+      "password": "FTP2024",
       "createdAt": "2025-12-08T10:30:00.000Z",
       "userId": "2"
     },
@@ -374,7 +234,7 @@
       "id": "p003",
       "sunucu": "mail.company.com",
       "user_code": "info@company.com",
-      "password": "Mail!2024",
+      "password": "Mail2024",
       "createdAt": "2025-12-07T14:15:00.000Z",
       "userId": "2"
     },
@@ -395,42 +255,10 @@
       "userId": "2"
     },
     {
-      "id": "p006",
-      "sunucu": "wordpress.site.com",
-      "user_code": "wp_admin",
-      "password": "WP!admin2024",
-      "createdAt": "2025-12-04T09:10:00.000Z",
-      "userId": "2"
-    },
-    {
-      "id": "p007",
-      "sunucu": "plesk.hosting.com",
-      "user_code": "plesk_user",
-      "password": "Plesk#Pass24",
-      "createdAt": "2025-12-03T13:25:00.000Z",
-      "userId": "2"
-    },
-    {
-      "id": "p008",
-      "sunucu": "sftp.backup.com",
-      "user_code": "backup_user",
-      "password": "Backup@2024",
-      "createdAt": "2025-12-02T15:40:00.000Z",
-      "userId": "2"
-    },
-    {
-      "id": "p009",
-      "sunucu": "api.service.com",
-      "user_code": "api_key_user",
-      "password": "ApiKey!9876",
-      "createdAt": "2025-12-01T10:05:00.000Z",
-      "userId": "2"
-    },
-    {
       "id": "p101",
-      "sunucu": "vps.cloud.server.com",
+      "sunucu": "vps.cloud.com",
       "user_code": "vps_admin",
-      "password": "VPS#secure123",
+      "password": "VPS123",
       "createdAt": "2025-12-09T07:30:00.000Z",
       "userId": "4fc1"
     },
@@ -438,16 +266,16 @@
       "id": "p102",
       "sunucu": "cpanel.site2.com",
       "user_code": "cpanel_user2",
-      "password": "Cpanel@Pass24",
+      "password": "Cpanel24",
       "createdAt": "2025-12-08T12:15:00.000Z",
       "userId": "4fc1"
     },
     {
       "id": "p103",
-      "sunucu": "ftp.backup.server.com",
-      "user_code": "ftp_backup",
-      "password": "FTPbackup!99",
-      "createdAt": "2025-12-07T09:45:00.000Z",
+      "sunucu": "ssh.cloud.com",
+      "user_code": "ubuntu",
+      "password": "Ubuntu99",
+      "createdAt": "2025-12-07T11:10:00.000Z",
       "userId": "4fc1"
     },
     {
@@ -465,173 +293,77 @@
       "password": "Postgres@2024",
       "createdAt": "2025-12-05T16:30:00.000Z",
       "userId": "4fc1"
-    },
-    {
-      "id": "p106",
-      "sunucu": "ssh.cloud.server.com",
-      "user_code": "ubuntu",
-      "password": "Ubuntu!SSH99",
-      "createdAt": "2025-12-04T11:10:00.000Z",
-      "userId": "4fc1"
-    },
-    {
-      "id": "p107",
-      "sunucu": "joomla.site.com",
-      "user_code": "joomla_admin",
-      "password": "Joomla#2024",
-      "createdAt": "2025-12-03T08:55:00.000Z",
-      "userId": "4fc1"
-    },
-    {
-      "id": "p108",
-      "sunucu": "directadmin.hosting.com",
-      "user_code": "da_user",
-      "password": "DirectAdmin@24",
-      "createdAt": "2025-12-02T13:40:00.000Z",
-      "userId": "4fc1"
-    },
-    {
-      "id": "p109",
-      "sunucu": "redis.cache.server.com",
-      "user_code": "redis_user",
-      "password": "Redis!Cache99",
-      "createdAt": "2025-12-01T15:25:00.000Z",
-      "userId": "4fc1"
-    },
-    {
-      "id": "p110",
-      "sunucu": "gitlab.repo.com",
-      "user_code": "git_admin",
-      "password": "GitLab@Pass24",
-      "createdAt": "2025-11-30T10:15:00.000Z",
-      "userId": "4fc1"
     }
   ],
   "notes": [
     {
       "id": "n001",
-      "title": "Sunucu Bakım Notları",
-      "content": "VPS sunucusunda haftalık güncelleme yapıldı. Tüm servisler çalışıyor. Disk kullanımı %45 seviyesinde.",
+      "title": "Sunucu Bakım",
+      "content": "VPS güncelleme yapıldı",
       "createdAt": "2025-12-09T08:15:00.000Z",
       "userId": "2"
     },
     {
       "id": "n002",
-      "title": "Domain Yenileme Hatırlatıcısı",
-      "content": "example.com domaini 15 gün sonra sona eriyor. GoDaddy üzerinden yenileme yapılmalı.",
+      "title": "Domain Yenileme",
+      "content": "15 gün sonra sona eriyor",
       "createdAt": "2025-12-08T10:20:00.000Z",
       "userId": "2"
     },
     {
       "id": "n003",
-      "title": "Veritabanı Yedekleme",
-      "content": "MySQL veritabanının son yedeği alındı. Backup dosyası /backups/db_2025_12_07.sql konumunda.",
+      "title": "DB Yedekleme",
+      "content": "MySQL yedeği alındı",
       "createdAt": "2025-12-07T14:30:00.000Z",
       "userId": "2"
     },
     {
       "id": "n004",
-      "title": "SSL Sertifika Güncellemesi",
-      "content": "Let's Encrypt SSL sertifikası otomatik olarak yenilendi. Tüm siteler HTTPS üzerinden erişilebilir.",
+      "title": "SSL Güncellemesi",
+      "content": "Let's Encrypt yenilendi",
       "createdAt": "2025-12-06T09:45:00.000Z",
       "userId": "2"
     },
     {
       "id": "n005",
-      "title": "WordPress Eklenti Güncellemeleri",
-      "content": "Yoast SEO, WooCommerce ve Contact Form 7 eklentileri güncellendi. Test edildi, sorun yok.",
+      "title": "WordPress Eklentileri",
+      "content": "Yoast ve WooCommerce güncellendi",
       "createdAt": "2025-12-05T16:10:00.000Z",
       "userId": "2"
     },
     {
-      "id": "n006",
-      "title": "Mail Sunucu Ayarları",
-      "content": "SMTP ayarları yapılandırıldı. Port: 587, TLS aktif. Test maili başarıyla gönderildi.",
-      "createdAt": "2025-12-04T11:25:00.000Z",
-      "userId": "2"
-    },
-    {
-      "id": "n007",
-      "title": "FTP Erişim Sorunu Çözümü",
-      "content": "Passive mode aktif edildi. Firewall ayarları güncellendi. FTP erişimi sorunsuz çalışıyor.",
-      "createdAt": "2025-12-03T13:40:00.000Z",
-      "userId": "2"
-    },
-    {
-      "id": "n008",
-      "title": "Güvenlik Taraması Sonuçları",
-      "content": "Malware taraması tamamlandı. Tehdit bulunamadı. Wordfence eklentisi güncel.",
-      "createdAt": "2025-12-02T15:55:00.000Z",
-      "userId": "2"
-    },
-    {
-      "id": "n009",
-      "title": "Disk Alanı Optimizasyonu",
-      "content": "Eski log dosyaları temizlendi. 5GB alan boşaltıldı. Disk kullanımı optimize edildi.",
-      "createdAt": "2025-12-01T10:30:00.000Z",
-      "userId": "2"
-    },
-    {
       "id": "n101",
-      "title": "Hosting Planı Yükseltmesi",
-      "content": "Shared hosting'den VPS'e geçiş tamamlandı. CPU ve RAM kullanımı optimize edildi.",
+      "title": "Hosting Yükseltme",
+      "content": "VPS'e geçiş yapıldı",
       "createdAt": "2025-12-09T07:45:00.000Z",
       "userId": "4fc1"
     },
     {
       "id": "n102",
-      "title": "Cloudflare CDN Kurulumu",
-      "content": "Cloudflare üzerinden CDN aktif edildi. Sayfa yükleme hızı %40 arttı.",
+      "title": "CDN Aktif",
+      "content": "Cloudflare CDN kuruldu",
       "createdAt": "2025-12-08T12:30:00.000Z",
       "userId": "4fc1"
     },
     {
       "id": "n103",
-      "title": "GitHub Repository Güncellemesi",
-      "content": "Proje dosyaları GitHub'a push edildi. Son commit: 'Fixed authentication bug'",
+      "title": "GitHub Push",
+      "content": "Proje push edildi",
       "createdAt": "2025-12-07T09:20:00.000Z",
       "userId": "4fc1"
     },
     {
       "id": "n104",
-      "title": "Müşteri Destek Talebi",
-      "content": "Müşteri mail kurulumu için destek talep etti. Outlook ayarları gönderildi.",
+      "title": "Müşteri Destek",
+      "content": "Mail kurulum ayarları gönderildi",
       "createdAt": "2025-12-06T14:40:00.000Z",
       "userId": "4fc1"
     },
     {
       "id": "n105",
-      "title": "Server Monitoring Kurulumu",
-      "content": "UptimeRobot servisi entegre edildi. 5 dakikada bir sunucu kontrolü yapılıyor.",
+      "title": "Server Monitoring",
+      "content": "UptimeRobot entegre edildi",
       "createdAt": "2025-12-05T16:55:00.000Z",
-      "userId": "4fc1"
-    },
-    {
-      "id": "n106",
-      "title": "Nginx Yapılandırması",
-      "content": "Nginx reverse proxy ayarları yapıldı. Gzip compression aktif edildi.",
-      "createdAt": "2025-12-04T11:35:00.000Z",
-      "userId": "4fc1"
-    },
-    {
-      "id": "n107",
-      "title": "Redis Cache Optimizasyonu",
-      "content": "Redis cache kuruldu. Veritabanı sorguları %60 hızlandı.",
-      "createdAt": "2025-12-03T08:20:00.000Z",
-      "userId": "4fc1"
-    },
-    {
-      "id": "n108",
-      "title": "API Rate Limiting",
-      "content": "API endpoint'lerine rate limiting eklendi. Dakikada 100 istek limiti konuldu.",
-      "createdAt": "2025-12-02T13:50:00.000Z",
-      "userId": "4fc1"
-    },
-    {
-      "id": "n109",
-      "title": "Docker Container Güncellemesi",
-      "content": "Docker image'ları güncellendi. Tüm container'lar yeniden başlatıldı.",
-      "createdAt": "2025-12-01T15:40:00.000Z",
       "userId": "4fc1"
     }
   ]
