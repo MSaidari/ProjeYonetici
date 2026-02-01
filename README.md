@@ -10,15 +10,6 @@ Modern arayüzü ve güçlü veri yönetim özellikleri ile hem bireysel kullan�
 
 ---
 
-## 📸 Ekran Görüntüleri
-
-| Giriş Ekranı | Dashboard | Görev Takvimi |
-|:---:|:---:|:---:|
-| ![Login Screen](https://via.placeholder.com/200x400?text=Login+Screen) | ![Dashboard](https://via.placeholder.com/200x400?text=Dashboard) | ![Calendar](https://via.placeholder.com/200x400?text=Calendar) |
-*(Not: Projenin ekran görüntüleri buraya eklenecektir.)*
-
----
-
 ## 🌟 Temel Özellikler
 
 ### 🔐 Kimlik Doğrulama ve Güvenlik
